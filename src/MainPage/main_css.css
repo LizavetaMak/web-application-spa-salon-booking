@@ -1,0 +1,165 @@
+.Log {
+    text-align: center;
+    font-size: 70px;
+    color:#FFCC99;
+    font-family: 'Lobster', cursive;
+    margin: auto;
+    padding: 30px;
+    transition: color 0.5s linear;
+    text-shadow: 1px 1px 2px black, 0 0 1em orange;
+}
+
+
+.head{
+
+
+}
+
+
+
+
+
+.nav {
+
+    text-transform: uppercase;
+    word-spacing: 7px;
+    text-align: center;
+
+}
+.navlink {
+    display: inline-block;
+    color: BurlyWood;
+    transition: color 0.2s linear;
+    font-size: 20px;
+
+}
+.navlink:after {
+    background-color: black;
+    content: "";
+    display: block;
+
+
+}
+.navlink:hover {
+    color:black;
+    background:BurlyWood;
+}
+.navlink:hover:after {
+    display: block;
+}
+
+.content_top{
+    padding: 10px 20px;
+
+    border-radius: 3px;
+}
+.left {
+    float: left;
+    font-family: 'Alice', serif;
+    font-size: 30px;
+    color: sandybrown;
+    text-shadow: 1px 1px 2px black, 0 0 0.2em red;
+}
+.clear{clear:both;}/* clear float */
+
+
+.section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+.group:before, .group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+
+.images {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+    box-shadow: 0px 0px 3px rgb(150, 150, 150);
+    width: 20.8%;
+    padding: 1.5%;
+    text-align: center;
+    position: relative;
+}
+
+.images:first-child {
+    margin-left: 0;
+}
+
+.container22 {
+    max-width: 1200px;
+
+    background-color: ivory;
+    text-align: left;
+    margin: -25px;
+    margin: 0 auto;
+}
+.form
+{
+    line-height: 200%
+
+}
+
+
+
+
+
+/*h2 {
+
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    transition: color 2s linear;
+    font-weight: 400;
+    letter-spacing: normal;
+
+
+}*/
+
+.scroll_text {
+    width: 100%;
+    height: 11em;
+    overflow: scroll;
+
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-color: Sienna;
+
+}
+
+
+
+
+
+
+
+.icon a:hover
+{
+    opacity: 1;
+}
+.grid {
+    display: grid;
+
+    grid-template-columns: 10fr 10fr 10fr 10fr;
+    grid-gap:2vw;
+
+}
+.grid > div {
+    margin: 10% 20% 1% 7%;
+
+    padding: 1%;
+    text-align: left;
+    position: relative;
+}
+
+
+.grid  img {
+    max-width: 100%;
+}
