@@ -18,9 +18,17 @@ class AdminPage extends React.Component {
     render() {
         const { users } = this.state;
         return (
-            <div>
-                <h1>Admin</h1>
+            <div >
+                <h1 >Admin</h1>
                 <p>This page can only be accessed by administrators.</p>
+                <p>This page can only be accessed by administrators.</p><p>This page can only be accessed by administrators.</p><p>This page can only be accessed by administrators.</p>
+                <p>This page can only be accessed by administrators.</p>
+                <p>This page can only be accessed by administrators.</p>
+
+                <p>This page can only be accessed by administrators.</p>
+
+
+
                 <div>
                     All users from secure (admin only) api end point:
                     {users &&
